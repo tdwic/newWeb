@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Courgette|Pacifico&display=swap');
+.navbar-brand img{
+  height: 4rem;
+}
+.navbar{
+  background-color: black;
+}
+.navbar .nav-item a {
+    font-weight: bold;
+		font-size: 25px;
+    color: gray;
+
+}
+.navbar .nav-item a:hover {
+		font-size: 25px;
+    font-weight: bold;
+    color: red;
+    transition: 0.9s;
+}
+
+
+.carousel-item img{
+  padding-top: 5rem;
+  height: 50%;
+}
+.carousel-control-prev {
+  padding-top: 5rem;
+}
+.carousel-control-next{
+  padding-top: 5rem;
+}
+
+
+.card-img-top{
+  width: 18rem;
+  height: 18rem;
+  padding: 0.7rem;
+}
+
+
+.footer-main{
+  background-color: #1a1a1a;
+}
+.container-fluid .row .section1{
+}
+.container-fluid .row .section2{
+}
+.container-fluid .row .section3{
+}
+
+.container-fluid .row h5{
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+.container-fluid .row a{
+  color: white;
+  font-family: 'Courgette', cursive;
+}
