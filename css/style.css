@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Calistoga|Courgette|Pacifico&display=swap');
+body{
+  background-color: black;
+}
+
 .navbar-brand img{
   height: 4rem;
 }
 .navbar{
-  background-color: black;
+  background: #111;
 }
 .navbar .nav-item a {
     font-weight: bold;
@@ -30,12 +34,67 @@
   padding-top: 5rem;
 }
 
-
-.card-img-top{
-  width: 18rem;
-  height: 18rem;
-  padding: 0.7rem;
+.card{
+  width:20rem;
+  height: 20rem;
 }
+
+.card1{
+  background-image: url(../image/cam1.jpg);
+  background-repeat: no-repeat;
+  background-size:20rem 20rem;
+  opacity: 0.7;
+}
+.card2{
+  background-image: url(../image/cam2.png);
+  background-repeat: no-repeat;
+  background-size:20rem 20rem;
+  opacity: 0.7;
+}
+.card3{
+  background-image: url(../image/cam3.jpg);
+  background-repeat: no-repeat;
+  background-size:20rem 20rem;
+  opacity: 0.7;
+}
+.card4{
+  background-image: url(../image/cam4.jpg);
+  background-repeat: no-repeat;
+  background-size:20rem 20rem;
+  opacity: 0.7;
+}
+.card1:hover{
+  transition: 0.3s;
+  opacity: 100%;
+}
+.card2:hover{
+  transition: 0.3s;
+  opacity: 100%;
+}
+.card3:hover{
+  transition: 0.3s;
+  opacity: 100%;
+}
+.card4:hover{
+  transition: 0.3s;
+  opacity: 100%;
+}
+
+.card1 .card-body{
+  color: green;
+}
+.card-text{
+  padding:5rem;
+}
+
+.card-middle{
+  width: auto;
+  height: 30rem;
+  background-image: url(../image/cam1.jpg);
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+
 
 
 
@@ -75,12 +134,16 @@
   list-style: none;
 }
 .segment-two ul li{
-  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 0, 0, 0.5);
   line-height: 40px;
 }
 .segment-two ul li a{
   color: #999;
   text-decoration: none;
+}
+.segment-two ul li a:hover{
+  color: red;
+  transition: 0.3s;
 }
 .segment-three h2{
   font-family: Poppins;
