@@ -38,21 +38,113 @@
 }
 
 
-.footer-main{
-  background-color: #1a1a1a;
+
+.footer-top p{
+  color: #999;
 }
-.container-fluid .row .section1{
+.footer-top h2{
+  color: #fff;
+  font-size: 18px;
 }
-.container-fluid .row .section2{
+.footer-top h3{
+  color: #fff;
 }
-.container-fluid .row .section3{
+.footer-top{
+  background: #111;
+  padding: 80px 0;
+}
+.segment-one h3{
+  font-family: Courgette;
+  color: #fff;
+  letter-spacing: 3px;
+  margin: 10px;
+}
+.segment-two h2{
+  font-family: Poppins;
+  color: #fff;
+  text-transform: uppercase;
+}
+.segment-two h2:before{
+  content: '|';
+  color:red;
+  padding-right: 10px;
+}
+.segment-two ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.segment-two ul li{
+  border-bottom: 1px solid rgba(255, 0, 0, 0.3);
+  line-height: 40px;
+}
+.segment-two ul li a{
+  color: #999;
+  text-decoration: none;
+}
+.segment-three h2{
+  font-family: Poppins;
+  color: #fff;
+  text-transform: uppercase;
+}
+.segment-three h2:before{
+  content: '|';
+  color:red;
+  padding-right: 10px;
+}
+.segment-three a{
+  background: red;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius:50%;
+}
+.segment-three a i{
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 12px;
+
+}
+.segment-four h2{
+  font-family: Poppins;
+  color: #fff;
+  text-transform: uppercase;
+}
+.segment-four h2:before{
+  content: '|';
+  color:red;
+  padding-right: 10px;
+}
+.segment-four form input[type=email]{
+  border: none;
+  border-radius: 5px;
+  width: 10rem;
+}
+.segment-four form input[type=submit]{
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 3px 5px;
+  text-transform: uppercase;
+}
+.footer-bottom-text{
+  text-align: center;
+  background: #000;
+  line-height: 75px;
+  color: white;
 }
 
-.container-fluid .row h5{
-  color: white;
-  font-family: 'Pacifico', cursive;
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .md-mb-30{
+    margin-bottom: 30px;
+  }
 }
-.container-fluid .row a{
-  color: white;
-  font-family: 'Courgette', cursive;
+@media only screen and (max-width: 767px) {
+  .sm-mb-30{
+    margin-bottom: 30px;
+  }
+  .footer-top{
+    padding: 50px 0;
+  }
 }
