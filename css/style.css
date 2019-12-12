@@ -17,9 +17,8 @@ body{
   background-color: rgba(17,17,17,0.9);
 }
 .navbar .nav-item a {
-  font-family: Poppins;
   font-weight: bold;
-		font-size: 25px;
+		font-size: 18px;
     color:#fff;
 
 }
