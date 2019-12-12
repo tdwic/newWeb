@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Calistoga|Courgette|Pacifico&display=swap');
 body{
-  background-color: black;
+  background-color: #111;
 }
 
 .navbar-brand img{
@@ -13,10 +13,12 @@ body{
   letter-spacing: 3px;
 }
 .navbar{
-  background: #111;
+
+  background-color: rgba(17,17,17,0.9);
 }
 .navbar .nav-item a {
-    font-weight: bold;
+  font-family: Poppins;
+  font-weight: bold;
 		font-size: 25px;
     color:#fff;
 
@@ -33,6 +35,28 @@ body{
     color: red;
     transition: 0.9s;
 }
+
+
+.main-body{
+  margin-top:6rem;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.leftc{
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -55,7 +79,8 @@ body{
   padding: 80px 0;
 }
 .segment-one h3{
-  font-family: Courgette;
+  font-family: Poppins;
+  font-weight: bold;
   color: #fff;
   letter-spacing: 3px;
   margin: 10px;
