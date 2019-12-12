@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Courgette|Pacifico&display=swap');
+body{
+  background-color: black;
+}
+
+.navbar-brand img{
+  height:5rem;
+}
+.main-topic h3{
+  font-family: Courgette;
+  color: red;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.navbar{
+  background: #111;
+}
+.navbar .nav-item a {
+    font-weight: bold;
+		font-size: 25px;
+    color:#fff;
+
+}
+.navbar .nav-item a:before {
+  content: '|';
+  font-style: normal;
+  color:red;
+  padding-right: 5px;
+}
+.navbar .nav-item a:hover {
+		font-size: 25px;
+    font-weight: bold;
+    color: red;
+    transition: 0.9s;
+}
+
+
+
+
+
+
+.footer-top p{
+  color: #999;
+  background-image: url();
+}
+.footer-top h2{
+  color: #fff;
+  font-size: 18px;
+}
+.footer-top h3{
+  color: #fff;
+}
+.footer-top{
+  background: #111;
+  padding: 80px 0;
+}
+.segment-one h3{
+  font-family: Courgette;
+  color: #fff;
+  letter-spacing: 3px;
+  margin: 10px;
+}
+.segment-two h2{
+  font-family: Poppins;
+  color: #fff;
+  text-transform: uppercase;
+}
+.segment-two h2:before{
+  content: '|';
+  color:red;
+  padding-right: 10px;
+}
+.segment-two ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.segment-two ul li{
+  border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+  line-height: 40px;
+}
+.segment-two ul li a{
+  color: #999;
+  text-decoration: none;
+}
+.segment-two ul li a:hover{
+  color: red;
+  transition: 0.3s;
+}
+.segment-three h2{
+  font-family: Poppins;
+  color: #fff;
+  text-transform: uppercase;
+}
+.segment-three h2:before{
+  content: '|';
+  color:red;
+  padding-right: 10px;
+}
+.segment-three a{
+  background: red;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius:50%;
+}
+.segment-three a:hover{
+  transition: 0.3s;
+  background: red;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius:50%;
+  margin-left: 10px;
+}
+
+.segment-three a i{
+  font-size: 20px;
+  color: #fff;
+  padding: 10px 12px;
+}
+.segment-four h2{
+  font-family: Poppins;
+  color: #fff;
+  text-transform: uppercase;
+}
+.segment-four h2:before{
+  content: '|';
+  color:red;
+  padding-right: 10px;
+}
+.segment-four form input[type=email]{
+  border: none;
+  border-radius: 5px;
+  width: 10rem;
+}
+.segment-four form input[type=submit]{
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 3px 5px;
+  text-transform: uppercase;
+}
+
+.segment-four form input[type=submit]:hover{
+  margin-left: 2px;
+
+}
+
+.footer-bottom-text{
+  text-align: center;
+  background: #000;
+  line-height: 75px;
+  color: white;
+}
+
+.call-button a{
+  padding: 10px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-decoration:none;
+}
+.call-button a:hover{
+  transition: 0.3s;
+  padding-left: 15px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-decoration:none;
+  font-size: 20px;
+}
+
+.location-box{
+  padding: 0px;
+  margin: 0px;
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .md-mb-30{
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sm-mb-30{
+    margin-bottom: 30px;
+  }
+  .footer-top{
+    padding: 50px 0;
+  }
+}
