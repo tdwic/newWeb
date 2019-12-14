@@ -4,23 +4,44 @@
 }
 
 .main-display{
+  padding: 0;
   width: auto;
-  height: auto;
+  height: 1000px;
+}
+.img_card{
+  background-color: red;
+  height:auto;
+}
+
+.link-tag {
+  background-color: blue;
+  position: relative;
+  padding: 0;
+  margin-left: -15px;
+  height: 25rem;
+  width:  25rem;
+  color: white;
+}
+
+.test{
+  text-decoration: none;
 }
 
 .img_card img{
   background-color: red;
-  height: 250px;
-  width: 250px;
-  margin: 10px;
+  height:100%;
+  width:100%;
+  display: inline-block; /* change the default display type to inline-block */
+   overflow: hidden;
 }
 
-.img_card img:hover{
-  background-color: red;
-  height: 300px;
-  width: 300px;
-}
 
+.link-tag img:hover {
+    transition: all .2s ease;
+    transform: scale(1.1);
+    display: inline-block; /* change the default display type to inline-block */
+     overflow: hidden;
+}
 
 
 
