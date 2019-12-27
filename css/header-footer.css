@@ -148,11 +148,13 @@ body{
 }
 
 .footer-bottom-text{
-  text-align: center;
+  text-align: right;
   background: #000;
   line-height: 75px;
   color: white;
 }
+
+
 
 .call-button a{
   padding: 10px;
@@ -183,6 +185,73 @@ body{
 
 }
 
+
+/*float button*/
+*{padding:0;margin:0;}
+
+.label-container{
+	position:fixed;
+	bottom:10px;
+	right:220px;
+	display:table;
+	visibility: hidden;
+}
+
+.label-text{
+	color:#FFF;
+	background:red;
+	display:table-cell;
+	vertical-align:super;
+	padding:10px;
+	border-radius:3px;
+}
+
+.label-arrow{
+	display:table-cell;
+	vertical-align:text-bottom;
+	color:red;
+	opacity:0.9;
+}
+
+.float{
+  font-size:20px;
+	position:fixed;
+	width:200px;
+	height:40px;
+	bottom:10px;
+	right:10px;
+	background-color: rgba(17,17,17,0.5);
+	color:white;
+	border-radius:10px;
+	text-align:center;
+  border-top: 2px solid red;
+  border-left: 2px solid red;
+}
+
+
+
+a.float + div.label-container {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.9s ease;
+}
+
+a.float:hover + div.label-container{
+  visibility: visible;
+  opacity: 1;
+}
+
+a:hover{
+  color: red;
+  transition: 0.5s ease;
+  border-top: 2px solid gray;
+  border-left: 2px solid gray;
+}
+
+/*float button*/
+
+
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .md-mb-30{
     margin-bottom: 30px;
@@ -194,5 +263,14 @@ body{
   }
   .footer-top{
     padding: 50px 0;
+  }
+  .float{
+    width: 100%;
+    background-color: rgba(255,0,0,1);
+    padding: 0px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    border-top: 2px solid red;
+    border-left: 0px solid black;
   }
 }
