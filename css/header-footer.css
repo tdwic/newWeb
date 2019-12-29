@@ -153,12 +153,15 @@ body{
 }
 
 .footer-bottom-text{
-  text-align: right;
   background: #000;
-  line-height: 75px;
-  color: white;
 }
 
+.footer-bottom-text img{
+  max-height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 .call-button a{
@@ -196,8 +199,8 @@ body{
 
 .label-container{
 	position:fixed;
-	bottom:10px;
-	right:160px;
+	bottom:20px;
+	right:80px;
 	display:table;
 	visibility: hidden;
 }
@@ -221,13 +224,14 @@ body{
 .float{
   font-size:20px;
 	position:fixed;
-	width:150px;
-	height:40px;
+  padding: 10px 10px;
+	width:50px;
+	height:50px;
 	bottom:10px;
 	right:10px;
 	background-color: rgba(0,255,0,0.9);
 	color:white;
-	border-radius:10px;
+	border-radius:50px;;
 	text-align:center;
 }
 
@@ -246,8 +250,15 @@ a.float:hover + div.label-container{
 
 .bottom-call a:hover{
   color: red;
-  text-decoration: none;
   transition: 0.5s ease;
+
+  font-size:30px;
+	position:fixed;
+  padding: 12px 12px;
+	width:70px;
+	height:70px;
+	bottom:10px;
+	right:10px;
 }
 
 /*float button*/
@@ -267,12 +278,30 @@ a.float:hover + div.label-container{
     padding: 50px 0;
   }
   .float{
-    width: 100%;
-    background-color: rgba(255,0,0,1);
-    padding: 0px;
-    margin-right: -10px;
-    margin-bottom: -10px;
-    border-top: 2px solid red;
-    border-left: 0px solid black;
+    font-size:20px;
+  	position:fixed;
+    padding: 10px 10px;
+  	width:50px;
+  	height:50px;
+  	bottom:10px;
+  	right:50px;
+  	background-color: rgba(0,255,0,0.9);
+  	color:white;
+  	border-radius:50px;;
+  	text-align:center;
+  }
+
+  .bottom-call a:hover{
+    font-size:20px;
+  	position:fixed;
+    padding: 10px 10px;
+  	width:50px;
+  	height:50px;
+  	bottom:10px;
+  	right:50px;
+  	background-color: rgba(0,255,0,0.9);
+  	color:white;
+  	border-radius:50px;;
+  	text-align:center;
   }
 }
