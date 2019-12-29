@@ -5,7 +5,6 @@ body{
 
 .navbar-brand img{
   height:5rem;
-  padding: 0px;
   border-top-left-radius:20px;
   border-top-right-radius:5px;
   border-bottom-left-radius:10px;
@@ -19,7 +18,7 @@ body{
   letter-spacing: 3px;
 }
 .navbar{
-  max-height: 100px;
+
   background-color: rgba(0,0,0,0.9);
 }
 .navbar .nav-item a {
@@ -40,6 +39,7 @@ body{
     color: red;
     transition: 0.9s;
 }
+
 
 
 .carousel-item {
