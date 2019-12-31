@@ -28,6 +28,7 @@
 .left-col img{
   padding: 10px;
   border-radius: 15px;
+  max-height: 300px;
 }
 
 .left-col .btn{
