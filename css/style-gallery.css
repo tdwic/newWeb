@@ -54,6 +54,12 @@ p,h1,h2,h3,h4,h5,h6{
 
 }
 @media only screen and (max-width: 767px) {
+
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
   .img1,
   .img2,
   .img3,
@@ -61,14 +67,15 @@ p,h1,h2,h3,h4,h5,h6{
   .img5,
   .img6,
   .img7{
+    height: 200px;
     width: 100%;
-    margin: 0;
     margin-top: 10px;
   }
 
   .img1,
   .img2,
   .img3{
+    height: 200px;
     margin-top: 10px;
   }
 

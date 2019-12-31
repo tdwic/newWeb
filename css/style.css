@@ -4,6 +4,7 @@ p,h1,h2,h3,h4,h5,h6,li{
   font-family: "Helvetica Neue";
 }
 
+
 body{
   background-color: #111;
 }
@@ -370,6 +371,11 @@ a.float:hover + div.label-container{
 }
 @media only screen and (max-width: 767px) {
 
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   .card{
     width: 90%;
   }
@@ -409,7 +415,7 @@ a.float:hover + div.label-container{
   	width:70px;
   	height:70px;
   	bottom:40px;
-  	right:70px;
+  	right:20px;
   	background-color: rgba(0,255,0,0.9);
   	color:white;
   	border-radius:50px;;
