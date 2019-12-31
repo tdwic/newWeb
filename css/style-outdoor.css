@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga|Courgette|Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
 
-p,h1,h2,h3,h4,h5,h6{
-  font-family: "Helvetica Neue";
+p,h1,h2,h3,h4,h5,h6,li,a{
+  font-family: 'Didact Gothic', sans-serif;
 }
+
 
 .main-body{
   margin-top:6rem;

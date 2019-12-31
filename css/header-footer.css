@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Calistoga|Courgette|Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
 
-p,h1,h2,h3,h4,h5,h6,li{
-  font-family: "Helvetica Neue";
+p,h1,h2,h3,h4,h5,h6,li,a{
+  font-family: 'Didact Gothic', sans-serif;
 }
+
 
 body{
   background-color: #111;
@@ -17,7 +19,7 @@ body{
 
 }
 .main-topic h3{
-  font-family: "Helvetica Neue";
+
   color: red;
   font-size: 30px;
   letter-spacing: 3px;
@@ -82,14 +84,14 @@ body{
   padding: 80px 0;
 }
 .segment-one h3{
-  font-family: "Helvetica Neue";
+
   font-weight: bold;
   color: #fff;
   letter-spacing: 3px;
   margin: 10px;
 }
 .segment-two h2{
-  font-family: "Helvetica Neue";
+
   color: #fff;
   text-transform: uppercase;
 }
@@ -116,7 +118,7 @@ body{
   transition: 0.3s;
 }
 .segment-three h2{
-  font-family: "Helvetica Neue";
+
   color: #fff;
   text-transform: uppercase;
 }
@@ -148,7 +150,7 @@ body{
   padding: 10px 12px;
 }
 .segment-four h2{
-  font-family: "Helvetica Neue";
+
   color: #fff;
   text-transform: uppercase;
 }
