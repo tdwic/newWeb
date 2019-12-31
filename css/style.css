@@ -68,8 +68,9 @@ body{
 
 
 .carousel-item {
-  max-height: 500px;
+  max-height: 600px;
 }
+
 
 .carousel-item img{
   padding-top: 6.5rem;
@@ -421,5 +422,8 @@ a.float:hover + div.label-container{
   	border-radius:50px;;
   	text-align:center;
   }
+
+
+
 
 }
